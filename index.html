@@ -386,11 +386,7 @@
                     <form role="form" id = "contactform" class="form-inline text-right col-md-6" action="https://formsubmit.io/send/9902e915-787d-47cb-9a92-fe9120c977ea" method="POST">
 
                         <div class="form-group">
-                            <input type="hidden" name ="_next" value="https://iamcarlg.github.io/Plumbing-Services/thankyou.html">
-                        </div>
-
-                        <div class="form-group">
-                            <input type="hidden" name ="_captcha" value="false">
+                            <input name="_redirect" type="hidden" id="name" value="https://iamcarlg.github.io/Plumbing-Services/thankyou.html">
                         </div>
 
                         <div class="form-group">
@@ -403,6 +399,9 @@
                             <textarea class="form-control" rows="5" id="msg" placeholder="Message"></textarea>
                         </div>
 
+                        <input name="_formsubmit_id" type="text" style="display:none">
+                        <!--Honeyspot : It's to avoid spam by fooling spambots -->
+                        
                         <button type="submit" class="btn submit_btn">Valider</button>
                     </form>
 
