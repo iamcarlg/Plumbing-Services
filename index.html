@@ -97,7 +97,7 @@
                             <li><a href="#about">A propos de nous</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#contact_form">Nous Contacter</a></li>
+                            <li><a href="contact.html">Nous Contacter</a></li>
                         </ul>
                     </div>
                 </div>   
@@ -371,9 +371,10 @@
                     </div>
                 </div>
             </div>
-        </section><!-- Testimonial end -->
+        </section>--><!-- Testimonial end -->
 
         <!-- Contact form -->
+        
         <section id="contact_form">
             <div class="container">
                 <div class="row">
@@ -381,7 +382,13 @@
                         <h2>Avez-vous des questions ?</h2>
                         <h2 class="second_heading">N'hésitez pas à nous contacter!</h2>
                     </div>
-                    <form role="form" class="form-inline text-right col-md-6" >
+                    
+                    <form role="form" class="form-inline text-right col-md-6" action="https://formsubmit.co/rugerocarlgauss@gmail.com" method="POST">
+
+                        <div class="form-group">
+                            <input type="hidden" name ="_next" value="thankyou.html">
+                        </div>
+
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Nom Complet">
                         </div>
@@ -391,12 +398,15 @@
                         <div class="form-group">
                             <textarea class="form-control" rows="5" id="msg" placeholder="Message"></textarea>
                         </div>
+
                         <button type="submit" class="btn submit_btn">Valider</button>
-                    </form>				
+                    </form>
+
                 </div>
             </div>
-        </section><!-- Contact form end -->
-
+        </section>
+        <!-- Contact form end -->
+    
         <!-- Footer -->
         <footer>
             <!-- Footer top -->
